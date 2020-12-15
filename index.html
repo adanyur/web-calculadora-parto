@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Calculdora embarazo</title>
 </head>
 <body>
@@ -15,43 +15,27 @@
         <div class="container">
             <div class="card">
                 <div class="card-head">
-                    <img src="img1.png" class="img">
+                    <img src="img/img1.png" class="img">
+                </div>
+                <div class="card-title">
+                    <b>¿Cuando Nacera mi bebe?</b>
+                </div>
+                <div class="card-text">
+                    Introduce la fecha del primer día de tu última menstruación:
                 </div>
                 <div class="card-body">
                     <form id="form-calculo" action="#">
                         <select id="dia">
-                            <option value="">DIA</option>
-                            <option value="01">1</option>
-                            <option valie="02">2</option>
-                            <option valie="03">3</option>
-                            <option valie="04">4</option>
-                            <option valie="05">5</option>
-                            <option valie="06">6</option>
-                            <option valie="07">7</option>
-                            <option valie="08">8</option>
-                            <option valie="09">9</option>
-                            <option valie="10">10</option>
-                            <option valie="11">11</option>
-                            <option valie="12">12</option>
-                            <option valie="13">13</option>
-                            <option valie="14">14</option>
+                            <option value="0">DIA</option>
                         </select>
                         <select id="mes">
-                            <option value="">MES</option>
-                            <option value="01">ENERO</option>
-                            <option value="02">FEBRERO</option>
-                            <option value="03">MARZO</option>
-                            <option value="12">DICIEMBRE</option>
+                            <option value="0">MES</option>
                         </select>
                         <select id="anio">
-                            <option value="">AÑO</option>
-                            <option value="2021">2021</option>
+                            <option value="0">AÑO</option>
                             <option value="2020">2020</option>
-                            <option value="2019">2019</option>
-                            <option value="2014">2014</option>
+                            <option value="2021">2021</option>
                         </select>
-
-                        <!-- <input type="submit" value="CALCULAR" class="button"> -->
                         <button type="submit" class="button"> CALCULAR</button>
                     </form>
                 </div>
@@ -61,10 +45,8 @@
         </div>       
     </nav>
     <footer>
-
-
     </footer>
-<script src="jquery.min.js"></script>
-<script src="app.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

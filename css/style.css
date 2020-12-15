@@ -40,14 +40,32 @@ body {
 }
 
 .card-title {
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   text-align: center;
 }
 
+.card-text {
+  font-size: 15px;
+  text-align: justify;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* margin: auto; */
+}
+
+.card-text-ma {
+  font-size: 15px;
+  text-align: justify;
+  padding: 10px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  margin: auto;
+}
+
 .card-body {
   width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 
 .img {
