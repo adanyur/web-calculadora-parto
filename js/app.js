@@ -28,10 +28,10 @@ $(document).ready(() => {
     let day = Days(time);
     let week = Weeks(time);
 
-    // day >= 15 ? new Date().getDate() - day :
-
-    a = `Tienes ${week !== 0 ? week : 0} semanas y ${day} dias de embarazo`;
-    b = `Su bebe se encuentra en sus brazos Felicidades!`;
+    a = `Tienes ${week !== 0 ? week : 0} semanas y ${
+      day >= 7 ? day % 7 : day
+    } dias de embarazo`;
+    b = `Su bebé se encuentra en sus brazos Felicidades!`;
 
     return `
         <div class="card-text-ma">
